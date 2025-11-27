@@ -1,9 +1,838 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "users": [
+        {
+            "name": "Oli Ullah",
+            "id": "1"
+        },
+        {
+            "id": "2",
+            "name": "Pranto",
+            "email": "pranto@example.com",
+            "password": "123456"
+        },
+        {
+            "id": "3",
+            "name": "Himel",
+            "email": "himel@example.com",
+            "password": "123456"
+        },
+        {
+            "id": "e708",
+            "name": "Sarkar",
+            "email": "sarkar@example.com"
+        },
+        {
+            "id": "96d1",
+            "name": "Rakib",
+            "email": "rakib@example.com"
+        },
+        {
+            "name": "Oli Ullah",
+            "id": "4881"
+        }
+    ],
+    "featureProducts": [
+        {
+            "id": "1",
+            "title": "JWEI Cutting Machine",
+            "image": "/home/slider/garment-equipment-01.png",
+            "price": "160000",
+            "discount": "10000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "2",
+            "title": "JWEI Flat Cutting Machine",
+            "image": "/home/slider/garment-equipment-02.png",
+            "price": "180000",
+            "discount": "15000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "3",
+            "title": "Cutting Machine",
+            "image": "/home/slider/garment-equipment-05.png",
+            "price": "360000",
+            "discount": "8000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "4",
+            "title": "Digital Cutting Plotter",
+            "image": "/home/slider/garment-equipment-04.png",
+            "price": "220245",
+            "discount": "5000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "5",
+            "title": "JWEI Cutting Machine",
+            "image": "/home/slider/garment-equipment-01.png",
+            "price": "160000",
+            "discount": "10000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "6",
+            "title": "JWEI Flat Cutting Machine",
+            "image": "/home/slider/garment-equipment-02.png",
+            "price": "180000",
+            "discount": "15000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "7",
+            "title": "Cutting Machine",
+            "image": "/home/slider/garment-equipment-05.png",
+            "price": "360000",
+            "discount": "8000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "8",
+            "title": "Digital Cutting Plotter",
+            "image": "/home/slider/garment-equipment-04.png",
+            "price": "220245",
+            "discount": "5000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "9",
+            "title": "JWEI Cutting Machine",
+            "image": "/home/slider/garment-equipment-01.png",
+            "price": "160000",
+            "discount": "10000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "10",
+            "title": "JWEI Flat Cutting Machine",
+            "image": "/home/slider/garment-equipment-02.png",
+            "price": "180000",
+            "discount": "15000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "11",
+            "title": "Cutting Machine",
+            "image": "/home/slider/garment-equipment-05.png",
+            "price": "360000",
+            "discount": "8000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "12",
+            "title": "Digital Cutting Plotter",
+            "image": "/home/slider/garment-equipment-04.png",
+            "price": "220245",
+            "discount": "5000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "13",
+            "title": "JWEI Cutting Machine",
+            "image": "/home/slider/garment-equipment-01.png",
+            "price": "160000",
+            "discount": "10000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "14",
+            "title": "JWEI Flat Cutting Machine",
+            "image": "/home/slider/garment-equipment-02.png",
+            "price": "180000",
+            "discount": "15000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "15",
+            "title": "Cutting Machine",
+            "image": "/home/slider/garment-equipment-05.png",
+            "price": "360000",
+            "discount": "8000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "16",
+            "title": "Digital Cutting Plotter",
+            "image": "/home/slider/garment-equipment-04.png",
+            "price": "220245",
+            "discount": "5000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "17",
+            "title": "JWEI Cutting Machine",
+            "image": "/home/slider/garment-equipment-01.png",
+            "price": "160000",
+            "discount": "10000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "18",
+            "title": "JWEI Flat Cutting Machine",
+            "image": "/home/slider/garment-equipment-02.png",
+            "price": "180000",
+            "discount": "15000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "19",
+            "title": "Cutting Machine",
+            "image": "/home/slider/garment-equipment-05.png",
+            "price": "360000",
+            "discount": "8000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "20",
+            "title": "Digital Cutting Plotter",
+            "image": "/home/slider/garment-equipment-04.png",
+            "price": "220245",
+            "discount": "5000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "title": "JWEI Cutting Machine",
+            "image": "/home/slider/garment-equipment-01.png",
+            "price": "160000",
+            "discount": "10000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "2",
+            "title": "JWEI Flat Cutting Machine",
+            "image": "/home/slider/garment-equipment-02.png",
+            "price": "180000",
+            "discount": "15000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "3",
+            "title": "Cutting Machine",
+            "image": "/home/slider/garment-equipment-05.png",
+            "price": "360000",
+            "discount": "8000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "4",
+            "title": "Digital Cutting Plotter",
+            "image": "/home/slider/garment-equipment-04.png",
+            "price": "220245",
+            "discount": "5000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "5",
+            "title": "JWEI Cutting Machine",
+            "image": "/home/slider/garment-equipment-01.png",
+            "price": "160000",
+            "discount": "10000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "6",
+            "title": "JWEI Flat Cutting Machine",
+            "image": "/home/slider/garment-equipment-02.png",
+            "price": "180000",
+            "discount": "15000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "7",
+            "title": "Cutting Machine",
+            "image": "/home/slider/garment-equipment-05.png",
+            "price": "360000",
+            "discount": "8000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "8",
+            "title": "Digital Cutting Plotter",
+            "image": "/home/slider/garment-equipment-04.png",
+            "price": "220245",
+            "discount": "5000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "9",
+            "title": "JWEI Cutting Machine",
+            "image": "/home/slider/garment-equipment-01.png",
+            "price": "160000",
+            "discount": "10000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "10",
+            "title": "JWEI Flat Cutting Machine",
+            "image": "/home/slider/garment-equipment-02.png",
+            "price": "180000",
+            "discount": "15000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "11",
+            "title": "Cutting Machine",
+            "image": "/home/slider/garment-equipment-05.png",
+            "price": "360000",
+            "discount": "8000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "12",
+            "title": "Digital Cutting Plotter",
+            "image": "/home/slider/garment-equipment-04.png",
+            "price": "220245",
+            "discount": "5000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "13",
+            "title": "JWEI Cutting Machine",
+            "image": "/home/slider/garment-equipment-01.png",
+            "price": "160000",
+            "discount": "10000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "14",
+            "title": "JWEI Flat Cutting Machine",
+            "image": "/home/slider/garment-equipment-02.png",
+            "price": "180000",
+            "discount": "15000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "15",
+            "title": "Cutting Machine",
+            "image": "/home/slider/garment-equipment-05.png",
+            "price": "360000",
+            "discount": "8000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "16",
+            "title": "Digital Cutting Plotter",
+            "image": "/home/slider/garment-equipment-04.png",
+            "price": "220245",
+            "discount": "5000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "17",
+            "title": "JWEI Cutting Machine",
+            "image": "/home/slider/garment-equipment-01.png",
+            "price": "160000",
+            "discount": "10000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "18",
+            "title": "JWEI Flat Cutting Machine",
+            "image": "/home/slider/garment-equipment-02.png",
+            "price": "180000",
+            "discount": "15000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "19",
+            "title": "Cutting Machine",
+            "image": "/home/slider/garment-equipment-05.png",
+            "price": "360000",
+            "discount": "8000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        },
+        {
+            "id": "20",
+            "title": "Digital Cutting Plotter",
+            "image": "/home/slider/garment-equipment-04.png",
+            "price": "220245",
+            "discount": "5000",
+            "criteria": [
+                "category",
+                "new_product",
+                "product_feature",
+                "best_selling",
+                "discount_product",
+                "trending_product",
+                "popular_category",
+                "popular_brand",
+                "upcoming_product"
+            ],
+            "status": "1",
+            "post_role": ""
+        }
+    ]
 }
