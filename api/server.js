@@ -23,7 +23,7 @@ server.use(jsonServer.rewriter({
 }))
 server.use(router)
 server.listen(3000, () => {
-    console.log('JSON Server is running')
+    console.log('JSON Server is running: http://127.0.0.1:3000')
 })
 
 // Export the Server API

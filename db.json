@@ -1,838 +1,3067 @@
 {
-    "users": [
-        {
-            "name": "Oli Ullah",
-            "id": "1"
-        },
-        {
-            "id": "2",
-            "name": "Pranto",
-            "email": "pranto@example.com",
-            "password": "123456"
-        },
-        {
-            "id": "3",
-            "name": "Himel",
-            "email": "himel@example.com",
-            "password": "123456"
-        },
-        {
-            "id": "e708",
-            "name": "Sarkar",
-            "email": "sarkar@example.com"
-        },
-        {
-            "id": "96d1",
-            "name": "Rakib",
-            "email": "rakib@example.com"
-        },
-        {
-            "name": "Oli Ullah",
-            "id": "4881"
-        }
-    ],
-    "featureProducts": [
-        {
-            "id": "1",
-            "title": "JWEI Cutting Machine",
-            "image": "/home/slider/garment-equipment-01.png",
-            "price": "160000",
-            "discount": "10000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "2",
-            "title": "JWEI Flat Cutting Machine",
-            "image": "/home/slider/garment-equipment-02.png",
-            "price": "180000",
-            "discount": "15000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "3",
-            "title": "Cutting Machine",
-            "image": "/home/slider/garment-equipment-05.png",
-            "price": "360000",
-            "discount": "8000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "4",
-            "title": "Digital Cutting Plotter",
-            "image": "/home/slider/garment-equipment-04.png",
-            "price": "220245",
-            "discount": "5000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "5",
-            "title": "JWEI Cutting Machine",
-            "image": "/home/slider/garment-equipment-01.png",
-            "price": "160000",
-            "discount": "10000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "6",
-            "title": "JWEI Flat Cutting Machine",
-            "image": "/home/slider/garment-equipment-02.png",
-            "price": "180000",
-            "discount": "15000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "7",
-            "title": "Cutting Machine",
-            "image": "/home/slider/garment-equipment-05.png",
-            "price": "360000",
-            "discount": "8000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "8",
-            "title": "Digital Cutting Plotter",
-            "image": "/home/slider/garment-equipment-04.png",
-            "price": "220245",
-            "discount": "5000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "9",
-            "title": "JWEI Cutting Machine",
-            "image": "/home/slider/garment-equipment-01.png",
-            "price": "160000",
-            "discount": "10000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "10",
-            "title": "JWEI Flat Cutting Machine",
-            "image": "/home/slider/garment-equipment-02.png",
-            "price": "180000",
-            "discount": "15000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "11",
-            "title": "Cutting Machine",
-            "image": "/home/slider/garment-equipment-05.png",
-            "price": "360000",
-            "discount": "8000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "12",
-            "title": "Digital Cutting Plotter",
-            "image": "/home/slider/garment-equipment-04.png",
-            "price": "220245",
-            "discount": "5000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "13",
-            "title": "JWEI Cutting Machine",
-            "image": "/home/slider/garment-equipment-01.png",
-            "price": "160000",
-            "discount": "10000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "14",
-            "title": "JWEI Flat Cutting Machine",
-            "image": "/home/slider/garment-equipment-02.png",
-            "price": "180000",
-            "discount": "15000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "15",
-            "title": "Cutting Machine",
-            "image": "/home/slider/garment-equipment-05.png",
-            "price": "360000",
-            "discount": "8000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "16",
-            "title": "Digital Cutting Plotter",
-            "image": "/home/slider/garment-equipment-04.png",
-            "price": "220245",
-            "discount": "5000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "17",
-            "title": "JWEI Cutting Machine",
-            "image": "/home/slider/garment-equipment-01.png",
-            "price": "160000",
-            "discount": "10000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "18",
-            "title": "JWEI Flat Cutting Machine",
-            "image": "/home/slider/garment-equipment-02.png",
-            "price": "180000",
-            "discount": "15000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "19",
-            "title": "Cutting Machine",
-            "image": "/home/slider/garment-equipment-05.png",
-            "price": "360000",
-            "discount": "8000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "20",
-            "title": "Digital Cutting Plotter",
-            "image": "/home/slider/garment-equipment-04.png",
-            "price": "220245",
-            "discount": "5000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        }
-    ],
-    "products": [
-        {
-            "id": "1",
-            "title": "JWEI Cutting Machine",
-            "image": "/home/slider/garment-equipment-01.png",
-            "price": "160000",
-            "discount": "10000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "2",
-            "title": "JWEI Flat Cutting Machine",
-            "image": "/home/slider/garment-equipment-02.png",
-            "price": "180000",
-            "discount": "15000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "3",
-            "title": "Cutting Machine",
-            "image": "/home/slider/garment-equipment-05.png",
-            "price": "360000",
-            "discount": "8000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "4",
-            "title": "Digital Cutting Plotter",
-            "image": "/home/slider/garment-equipment-04.png",
-            "price": "220245",
-            "discount": "5000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "5",
-            "title": "JWEI Cutting Machine",
-            "image": "/home/slider/garment-equipment-01.png",
-            "price": "160000",
-            "discount": "10000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "6",
-            "title": "JWEI Flat Cutting Machine",
-            "image": "/home/slider/garment-equipment-02.png",
-            "price": "180000",
-            "discount": "15000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "7",
-            "title": "Cutting Machine",
-            "image": "/home/slider/garment-equipment-05.png",
-            "price": "360000",
-            "discount": "8000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "8",
-            "title": "Digital Cutting Plotter",
-            "image": "/home/slider/garment-equipment-04.png",
-            "price": "220245",
-            "discount": "5000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "9",
-            "title": "JWEI Cutting Machine",
-            "image": "/home/slider/garment-equipment-01.png",
-            "price": "160000",
-            "discount": "10000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "10",
-            "title": "JWEI Flat Cutting Machine",
-            "image": "/home/slider/garment-equipment-02.png",
-            "price": "180000",
-            "discount": "15000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "11",
-            "title": "Cutting Machine",
-            "image": "/home/slider/garment-equipment-05.png",
-            "price": "360000",
-            "discount": "8000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "12",
-            "title": "Digital Cutting Plotter",
-            "image": "/home/slider/garment-equipment-04.png",
-            "price": "220245",
-            "discount": "5000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "13",
-            "title": "JWEI Cutting Machine",
-            "image": "/home/slider/garment-equipment-01.png",
-            "price": "160000",
-            "discount": "10000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "14",
-            "title": "JWEI Flat Cutting Machine",
-            "image": "/home/slider/garment-equipment-02.png",
-            "price": "180000",
-            "discount": "15000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "15",
-            "title": "Cutting Machine",
-            "image": "/home/slider/garment-equipment-05.png",
-            "price": "360000",
-            "discount": "8000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "16",
-            "title": "Digital Cutting Plotter",
-            "image": "/home/slider/garment-equipment-04.png",
-            "price": "220245",
-            "discount": "5000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "17",
-            "title": "JWEI Cutting Machine",
-            "image": "/home/slider/garment-equipment-01.png",
-            "price": "160000",
-            "discount": "10000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "18",
-            "title": "JWEI Flat Cutting Machine",
-            "image": "/home/slider/garment-equipment-02.png",
-            "price": "180000",
-            "discount": "15000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "19",
-            "title": "Cutting Machine",
-            "image": "/home/slider/garment-equipment-05.png",
-            "price": "360000",
-            "discount": "8000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        },
-        {
-            "id": "20",
-            "title": "Digital Cutting Plotter",
-            "image": "/home/slider/garment-equipment-04.png",
-            "price": "220245",
-            "discount": "5000",
-            "criteria": [
-                "category",
-                "new_product",
-                "product_feature",
-                "best_selling",
-                "discount_product",
-                "trending_product",
-                "popular_category",
-                "popular_brand",
-                "upcoming_product"
-            ],
-            "status": "1",
-            "post_role": ""
-        }
-    ]
+  "users": [
+    {
+      "name": "Oli Ullah",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Pranto",
+      "email": "pranto@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "3",
+      "name": "Himel",
+      "email": "himel@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "e708",
+      "name": "Sarkar",
+      "email": "sarkar@example.com"
+    },
+    {
+      "id": "96d1",
+      "name": "Rakib",
+      "email": "rakib@example.com"
+    },
+    {
+      "name": "Oli Ullah",
+      "id": "4881"
+    },
+    {
+      "id": "yjOLQ1W"
+    },
+    {
+      "id": 71,
+      "email": "jubayed@hotmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": 79,
+      "email": "admin@admin.com",
+      "password": "password"
+    },
+    {
+      "id": 12,
+      "email": "bishwajitsarkar99@gmail.com",
+      "password": "bishwajitsarkar99@gmail.com"
+    },
+    {
+      "id": 62,
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": 58,
+      "email": "",
+      "password": ""
+    }
+  ],
+  "forgetPassword": [
+    {
+      "id": "25d",
+      "email": "rakib@example.com",
+      "token": "rakib@example.com"
+    },
+    {
+      "id": "8fc3eca7-f6af-4363-bad5-24a7eeddea85",
+      "email": "bishwajitsarkar99@gmail.com",
+      "token": "1ee57361-9bd8-44f2-92fc-c845064d8076"
+    },
+    {
+      "id": "6cd11337-49fb-49da-84c5-17c63c9073fe",
+      "email": "bishwajitsarkar99@gmail.com",
+      "token": "4b913e8b-a4b9-489f-a0fd-eae42731516b"
+    },
+    {
+      "id": "710797b2-2edb-4afb-acab-646426a91116",
+      "email": "bishwajitsarkar99@gmail.com",
+      "token": "b8169c05-3c0c-43d5-83b5-0726970730bb"
+    },
+    {
+      "id": "bbcb46dc-48cc-4278-a910-ddcd6fc14dba",
+      "email": "bishwajitsarkar99@gmail.com",
+      "token": "80884a33-6d37-4b59-8220-8243d51e4f27"
+    }
+  ],
+  "featureProducts": [
+    {
+      "id": "1",
+      "product_code": "6588",
+      "title": "JWEI Cutting Machine",
+      "description": "The JWEI Cutting Machine is a high-precision, fully automated cutting solution designed for the garment and apparel manufacturing industry. Known for its speed, accuracy, and intelligent control system, this machine streamlines fabric cutting processes for mass production as well as custom orders.Built with advanced servo motors and a digital control panel, the JWEI Cutter delivers extremely clean, consistent cuts across woven fabrics, knits, denim, synthetic materials, and technical textiles. Its robust blade mechanism ensures smooth operation even on multi-layer fabric spreads, making it ideal for factories aiming to enhance efficiency, reduce manual workload, and maintain consistent quality.The JWEI Cutting Machine supports CAD pattern input, allowing designers to directly import digital patterns for precise output. With low maintenance, durable installation design, and superior safety features, it has become a reliable choice for garment manufacturers around the world.",
+      "image": "/home/slider/garment-equipment-01.png",
+      "model": "FW-2500",
+      "brand": "Festro",
+      "price": "160000",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "2",
+      "product_code": "6505",
+      "title": "JWEI Flat Cutting",
+      "description": "The JWEI Flat Cutting Machine is a high-precision digital cutting solution designed for cutting fabric, leather, soft materials, cardboard, printing sheets, and various composite materials. Known for its stability and accuracy, the flatbed system ensures clean edges and consistent cutting results for mass production as well as sample development.This machine uses an oscillating knife and precision servo motors to deliver fast, smooth, and highly accurate cutting. Its intelligent control system supports multiple tools, allowing cutting, creasing, perforating, V-cut, kiss-cut, and marking – making it one of the most versatile flatbed cutters in its class.JWEI Flat Cutting Machines are widely used in garment sample rooms, footwear factories, leather goods manufacturers, packaging companies, and digital printing houses. With support for CAD/CAM software and direct pattern input, it significantly reduces manual labor and increases production efficiency.",
+      "image": "/home/slider/garment-equipment-02.png",
+      "model": "W-200",
+      "brand": "Festro",
+      "price": "180000",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "40",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "3",
+      "product_code": "1865",
+      "title": "Cutting Machine",
+      "description": "The Cutting Machine is a high-performance industrial solution designed to cut fabrics, leather, paper, foam, vinyl, and various soft materials with exceptional accuracy. Engineered for garment factories, textile units, leather goods manufacturers, and packaging industries, this machine delivers reliable cutting performance while improving production speed and reducing manual errors.Equipped with a powerful cutting tool—such as an oscillating knife, drag knife, or laser—the machine ensures clean, smooth edges across various material types. Its digital control interface and servo-driven system provide precise motion control, making it ideal for both sample making and bulk production.The machine supports CAD design input, allowing direct pattern import for error-free cutting. With optional vacuum suction beds, automatic feeding systems, and registration mark detection, this cutting machine offers maximum efficiency and minimal wastage.",
+      "image": "/home/slider/garment-equipment-05.png",
+      "model": "GU-2500",
+      "brand": "Festro",
+      "price": "360000",
+      "discount": "8000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "50",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "4",
+      "product_code": "7548",
+      "title": "Digital Cutting Plotter",
+      "description": "The Digital Cutting Plotter is a high-precision, computer-controlled cutting solution designed for fast and accurate cutting of various soft materials including fabric, leather, vinyl, stickers, cardboard, foam, and printed sheets. Engineered for industries that require detailed cutting, sample development, and small-batch production, this plotter provides clean, sharp edges with minimal waste.Using an advanced servo-driven cutting head and digital control system, the Digital Cutting Plotter delivers smooth, consistent, and reliable cutting results. It supports multiple cutting tools such as oscillating knife, drag knife, kiss-cut tool, V-cut knife, and creasing wheel — making it highly versatile for garments, packaging, signage, and advertising applications.With full compatibility with major CAD/CAM software and support for AI, DXF, PLT, and HPGL files, the Digital Cutting Plotter ensures seamless workflow integration. Its vacuum suction table keeps materials firmly in place, enabling accurate and fast production even on thin or flexible materials.",
+      "image": "/home/slider/garment-equipment-04.png",
+      "model": "AJ-2500",
+      "brand": "Festro",
+      "price": "220245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "50",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "5",
+      "product_code": "4512",
+      "title": "Stricker Machine",
+      "description": "The Sticker Cutting Machine is a high-precision digital plotter designed for cutting stickers, vinyl sheets, decals, labels, and adhesive materials with clean and accurate edges. Ideal for printing houses, advertising agencies, packaging units, and garment labeling, this machine ensures consistent and fast production for both small and large batches.Equipped with a servo-driven or stepper motor system, the sticker cutting machine allows for smooth and accurate cuts on various materials. The machine supports multiple cutting tools including drag knives, oscillating knives, kiss-cut tools, and V-cut knives, allowing flexibility for different sticker types and designs.It comes with a user-friendly control panel and supports popular file formats such as AI, DXF, PLT, and HPGL, making it compatible with all major design software. The vacuum suction system ensures the material stays flat during cutting, reducing errors and material wastage.",
+      "image": "/home/block/slider-image-02.png",
+      "model": "QA-3500",
+      "brand": "Presto",
+      "price": "250245",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "6",
+      "product_code": "8844",
+      "title": "Digital Weight Scale",
+      "description": "The Digital Weight Scale is a precise, reliable, and easy-to-use weighing solution for industrial, commercial, and laboratory applications. Designed to deliver accurate measurements with high repeatability, it is perfect for garments, textiles, packaging, food processing, laboratories, and general-purpose weighing.Equipped with a high-precision load cell and digital display, the scale provides fast and accurate readings in kilograms, grams, pounds, or ounces. Its compact design, user-friendly interface, and durable build make it ideal for environments where precision and reliability are essential.Advanced models include features such as tare function, unit conversion, overload protection, and data hold, making operations smooth and efficient. The scale can also connect to computers or printers for automated data recording in commercial or production workflows.",
+      "image": "/home/block/slider-image-05.png",
+      "model": "M-96",
+      "brand": "BD Scale",
+      "price": "25245",
+      "discount": "2000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "7",
+      "product_code": "4455",
+      "title": "Fushing Machines",
+      "description": "The Garment Fusing Machine is an essential industrial device used in the apparel industry to bond interlinings, fabrics, and adhesives with precision and efficiency. This machine ensures smooth, wrinkle-free, and consistent application of fusible materials in shirts, jackets, pants, and other garments.Designed for both manual and automatic operations, the fusing machine uses heat, pressure, and time control to create a durable bond between layers of fabric. It improves garment quality, reduces defects, and increases production efficiency in sample rooms, small factories, and large-scale garment manufacturing units.Equipped with advanced temperature control, pressure adjustment, and safety mechanisms, the fusing machine guarantees consistent performance with minimal maintenance. Its ergonomic design and user-friendly interface make it suitable for continuous industrial use.",
+      "image": "/home/new-product/Fushing Machines.png",
+      "model": "Rk-3500",
+      "brand": "Troven",
+      "price": "270245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "50",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "8",
+      "product_code": "6612",
+      "title": "Needle detector",
+      "description": "The Needle Detector is an essential quality control device designed to detect broken or stray needles, metal fragments, or sharp metallic contamination in garments, textiles, and other products. It ensures workplace safety, prevents production defects, and protects end-users from injury.Primarily used in the garment and apparel industry, this machine scans fabric, seams, and finished garments to locate metal contamination before shipment. The high-sensitivity detection system accurately identifies even the smallest needles, pins, or metal fragments without damaging the product.Equipped with an easy-to-use control panel, adjustable sensitivity, and alarm system, the needle detector enhances quality assurance in production lines, sample rooms, and export-ready garment inspection units.",
+      "image": "/home/new-product/Needle detector.png",
+      "model": "M-96",
+      "brand": "Detector",
+      "price": "55245",
+      "discount": "2000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "20",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "9",
+      "product_code": "4315",
+      "title": "JWEI Cutting Machine",
+      "description": "The JWEI Cutting Machine is a high-precision, fully automated cutting solution designed for the garment and apparel manufacturing industry. Known for its speed, accuracy, and intelligent control system, this machine streamlines fabric cutting processes for mass production as well as custom orders.Built with advanced servo motors and a digital control panel, the JWEI Cutter delivers extremely clean, consistent cuts across woven fabrics, knits, denim, synthetic materials, and technical textiles. Its robust blade mechanism ensures smooth operation even on multi-layer fabric spreads, making it ideal for factories aiming to enhance efficiency, reduce manual workload, and maintain consistent quality.The JWEI Cutting Machine supports CAD pattern input, allowing designers to directly import digital patterns for precise output. With low maintenance, durable installation design, and superior safety features, it has become a reliable choice for garment manufacturers around the world.",
+      "image": "/home/slider/garment-equipment-01.png",
+      "model": "F-2500",
+      "brand": "Pentone",
+      "price": "160000",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "oldwest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "0",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "10",
+      "product_code": "123",
+      "title": "JWEI Flat Cutting",
+      "description": "The JWEI Flat Cutting Machine is a high-precision digital cutting solution designed to cut fabrics, leather, foam, vinyl, cardboard, and composite materials with speed and accuracy. Widely used in garment factories, sample rooms, packaging, and printing industries, it ensures clean, consistent, and efficient cuts.Equipped with advanced servo motors, a vacuum suction table, and multi-tool capability, the JWEI Flat Cutter allows cutting, creasing, kiss-cutting, V-cutting, and marking in a single machine. Its digital control system supports CAD pattern import (DXF, AI, PLT, HPGL) for precise and repeatable production, reducing material wastage and manual labor.This versatile flatbed cutter is ideal for sample development, mass production, and industrial applications, delivering high-quality results across a wide range of materials.",
+      "image": "/home/slider/garment-equipment-02.png",
+      "model": "FW-400",
+      "brand": "Pentone",
+      "price": "180000",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "11",
+      "product_code": "0045",
+      "title": "Cutting Machine",
+      "description": "The Cutting Machine is a high-performance industrial device designed to cut fabrics, leather, foam, vinyl, cardboard, and other soft materials with speed and precision. Widely used in garment factories, packaging units, printing houses, and leather workshops, it ensures clean, accurate, and efficient cuts for mass production and sample making.Equipped with servo or stepper motors, adjustable cutting tools, and digital control systems, this machine delivers smooth, consistent results while reducing manual labor and material wastage. It is compatible with CAD patterns, supporting formats like DXF, AI, PLT, and HPGL, making it suitable for both automated and semi-automated production environments.",
+      "image": "/home/slider/garment-equipment-05.png",
+      "model": "UP-2500",
+      "brand": "Revolt",
+      "price": "360000",
+      "discount": "8000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "40",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "12",
+      "product_code": "6578",
+      "title": "Digital Cutting Plotter",
+      "description": "The Digital Cutting Plotter is a high-precision, computer-controlled cutting machine designed for accurate cutting of soft materials such as fabrics, leather, vinyl, stickers, cardboard, foam, and printed sheets. Ideal for garment sample rooms, packaging, signage, advertising, and industrial production, it ensures fast, clean, and consistent cuts.Equipped with servo-driven cutting heads and a digital control system, the plotter supports multiple tools including drag knives, oscillating knives, kiss-cut tools, V-cut knives, and creasing wheels. It is compatible with CAD/CAM software and can read AI, DXF, PLT, and HPGL files, enabling direct pattern import for error-free production.With vacuum suction tables and optional CCD camera alignment systems, the Digital Cutting Plotter ensures precise material handling and high-quality output across various applications.",
+      "image": "/home/slider/garment-equipment-04.png",
+      "model": "ST-2500",
+      "brand": "Revolt",
+      "price": "220245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "20",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "13",
+      "product_code": "8457",
+      "title": "JWEI Cutting Machine",
+      "description": "The JWEI Cutting Machine is a high-precision, fully automated cutting solution designed for the garment and apparel manufacturing industry. Known for its speed, accuracy, and intelligent control system, this machine streamlines fabric cutting processes for mass production as well as custom orders.Built with advanced servo motors and a digital control panel, the JWEI Cutter delivers extremely clean, consistent cuts across woven fabrics, knits, denim, synthetic materials, and technical textiles. Its robust blade mechanism ensures smooth operation even on multi-layer fabric spreads, making it ideal for factories aiming to enhance efficiency, reduce manual workload, and maintain consistent quality.The JWEI Cutting Machine supports CAD pattern input, allowing designers to directly import digital patterns for precise output. With low maintenance, durable installation design, and superior safety features, it has become a reliable choice for garment manufacturers around the world.",
+      "image": "/home/slider/garment-equipment-01.png",
+      "model": "US-2500",
+      "brand": "Revolt",
+      "price": "160000",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "20",
+      "upcoming": "0",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "14",
+      "product_code": "7745",
+      "title": "JWEI Flat Cutting",
+      "description": "The JWEI Flat Cutting Machine is a high-precision digital cutting solution designed to cut fabrics, leather, foam, vinyl, cardboard, and composite materials with speed and accuracy. Widely used in garment factories, sample rooms, packaging, and printing industries, it ensures clean, consistent, and efficient cuts.Equipped with advanced servo motors, a vacuum suction table, and multi-tool capability, the JWEI Flat Cutter allows cutting, creasing, kiss-cutting, V-cutting, and marking in a single machine. Its digital control system supports CAD pattern import (DXF, AI, PLT, HPGL) for precise and repeatable production, reducing material wastage and manual labor.This versatile flatbed cutter is ideal for sample development, mass production, and industrial applications, delivering high-quality results across a wide range of materials.",
+      "image": "/home/slider/garment-equipment-02.png",
+      "model": "TS-2500",
+      "brand": "Revolt",
+      "price": "180000",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "40",
+      "upcoming": "0",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "15",
+      "product_code": "9956",
+      "title": "Cutting Machine",
+      "description": "The Cutting Machine is a high-performance industrial device designed to cut fabrics, leather, foam, vinyl, cardboard, and other soft materials with speed and precision. Widely used in garment factories, packaging units, printing houses, and leather workshops, it ensures clean, accurate, and efficient cuts for mass production and sample making.Equipped with servo or stepper motors, adjustable cutting tools, and digital control systems, this machine delivers smooth, consistent results while reducing manual labor and material wastage. It is compatible with CAD patterns, supporting formats like DXF, AI, PLT, and HPGL, making it suitable for both automated and semi-automated production environments.",
+      "image": "/home/slider/garment-equipment-05.png",
+      "model": "GS-2500",
+      "brand": "Revolt",
+      "price": "360000",
+      "discount": "8000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "0",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "16",
+      "product_code": "4326",
+      "title": "Digital Cutting Plotter",
+      "description": "The Digital Cutting Plotter is a high-precision, computer-controlled cutting machine designed for accurate cutting of soft materials such as fabrics, leather, vinyl, stickers, cardboard, foam, and printed sheets. Ideal for garment sample rooms, packaging, signage, advertising, and industrial production, it ensures fast, clean, and consistent cuts.Equipped with servo-driven cutting heads and a digital control system, the plotter supports multiple tools including drag knives, oscillating knives, kiss-cut tools, V-cut knives, and creasing wheels. It is compatible with CAD/CAM software and can read AI, DXF, PLT, and HPGL files, enabling direct pattern import for error-free production.With vacuum suction tables and optional CCD camera alignment systems, the Digital Cutting Plotter ensures precise material handling and high-quality output across various applications.",
+      "image": "/home/slider/garment-equipment-04.png",
+      "model": "YG-2500",
+      "brand": "Paroda",
+      "price": "220245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "0",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "17",
+      "product_code": "4316",
+      "title": "JWEI Cutting Machine",
+      "description": "The JWEI Cutting Machine is a high-precision, fully automated cutting solution designed for the garment and apparel manufacturing industry. Known for its speed, accuracy, and intelligent control system, this machine streamlines fabric cutting processes for mass production as well as custom orders.Built with advanced servo motors and a digital control panel, the JWEI Cutter delivers extremely clean, consistent cuts across woven fabrics, knits, denim, synthetic materials, and technical textiles. Its robust blade mechanism ensures smooth operation even on multi-layer fabric spreads, making it ideal for factories aiming to enhance efficiency, reduce manual workload, and maintain consistent quality.The JWEI Cutting Machine supports CAD pattern input, allowing designers to directly import digital patterns for precise output. With low maintenance, durable installation design, and superior safety features, it has become a reliable choice for garment manufacturers around the world.",
+      "image": "/home/slider/garment-equipment-01.png",
+      "model": "PT-2500",
+      "brand": "Revolt",
+      "price": "160000",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "30",
+      "upcoming": "0",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "18",
+      "product_code": "7457",
+      "title": "JWEI Flat Cutting",
+      "description": "The JWEI Flat Cutting Machine is a high-precision digital cutting solution designed to cut fabrics, leather, foam, vinyl, cardboard, and composite materials with speed and accuracy. Widely used in garment factories, sample rooms, packaging, and printing industries, it ensures clean, consistent, and efficient cuts.Equipped with advanced servo motors, a vacuum suction table, and multi-tool capability, the JWEI Flat Cutter allows cutting, creasing, kiss-cutting, V-cutting, and marking in a single machine. Its digital control system supports CAD pattern import (DXF, AI, PLT, HPGL) for precise and repeatable production, reducing material wastage and manual labor.This versatile flatbed cutter is ideal for sample development, mass production, and industrial applications, delivering high-quality results across a wide range of materials.",
+      "image": "/home/slider/garment-equipment-02.png",
+      "model": "RS-2500",
+      "brand": "Revolt",
+      "price": "180000",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "0",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "19",
+      "product_code": "6548",
+      "title": "Cutting Machine",
+      "description": "The JWEI Cutting Machine is a high-precision, fully automated cutting solution designed for the garment and apparel manufacturing industry. Known for its speed, accuracy, and intelligent control system, this machine streamlines fabric cutting processes for mass production as well as custom orders.Built with advanced servo motors and a digital control panel, the JWEI Cutter delivers extremely clean, consistent cuts across woven fabrics, knits, denim, synthetic materials, and technical textiles. Its robust blade mechanism ensures smooth operation even on multi-layer fabric spreads, making it ideal for factories aiming to enhance efficiency, reduce manual workload, and maintain consistent quality.The JWEI Cutting Machine supports CAD pattern input, allowing designers to directly import digital patterns for precise output. With low maintenance, durable installation design, and superior safety features, it has become a reliable choice for garment manufacturers around the world.",
+      "image": "/home/slider/garment-equipment-05.png",
+      "model": "JW-2500",
+      "brand": "Revolt",
+      "price": "360000",
+      "discount": "8000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "20",
+      "upcoming": "0",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "20",
+      "product_code": "8547",
+      "title": "Digital Cutting Plotter",
+      "description": "The Digital Cutting Plotter is a high-precision, computer-controlled cutting machine designed for accurate cutting of soft materials such as fabrics, leather, vinyl, stickers, cardboard, foam, and printed sheets. Ideal for garment sample rooms, packaging, signage, advertising, and industrial production, it ensures fast, clean, and consistent cuts.Equipped with servo-driven cutting heads and a digital control system, the plotter supports multiple tools including drag knives, oscillating knives, kiss-cut tools, V-cut knives, and creasing wheels. It is compatible with CAD/CAM software and can read AI, DXF, PLT, and HPGL files, enabling direct pattern import for error-free production.With vacuum suction tables and optional CCD camera alignment systems, the Digital Cutting Plotter ensures precise material handling and high-quality output across various applications.",
+      "image": "/home/slider/garment-equipment-04.png",
+      "model": "QA-2500",
+      "brand": "Revolt",
+      "price": "220245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "21",
+      "product_code": "6548",
+      "title": "Stricker Machine",
+      "description": "The Sticker Cutting Machine is a high-precision digital plotter designed for cutting stickers, vinyl sheets, decals, labels, and adhesive materials with clean and accurate edges. Ideal for printing houses, advertising agencies, packaging units, and garment labeling, this machine ensures consistent and fast production for both small and large batches.Equipped with a servo-driven or stepper motor system, the sticker cutting machine allows for smooth and accurate cuts on various materials. The machine supports multiple cutting tools including drag knives, oscillating knives, kiss-cut tools, and V-cut knives, allowing flexibility for different sticker types and designs.It comes with a user-friendly control panel and supports popular file formats such as AI, DXF, PLT, and HPGL, making it compatible with all major design software. The vacuum suction system ensures the material stays flat during cutting, reducing errors and material wastage.",
+      "image": "/home/block/slider-image-02.png",
+      "model": "QA-3500",
+      "brand": "Presto",
+      "price": "250245",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "22",
+      "product_code": "3315",
+      "title": "Digital drying Machine",
+      "description": "The Digital Drying Machine is an advanced industrial device designed to efficiently dry garments, fabrics, leather, printed materials, and other textile products. Equipped with digital temperature control, programmable timers, and uniform airflow systems, it ensures fast, consistent, and energy-efficient drying without damaging materials.This machine is widely used in garment factories, textile printing units, leather processing workshops, and industrial production lines. Its digital interface allows precise control of temperature, drying time, and airflow, making it ideal for sensitive fabrics, printed garments, and coated materials.The Digital Drying Machine improves productivity, maintains material quality, and reduces manual intervention, offering a reliable and user-friendly solution for modern industrial drying needs.",
+      "image": "/home/block/slider-image-03.png",
+      "model": "Jk-300",
+      "brand": "Flora",
+      "price": "360245",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "23",
+      "product_code": "8456",
+      "title": "Pasting Machine",
+      "description": "The Pasting Machine is an industrial-grade device designed to apply adhesive, glue, or bonding material evenly to fabrics, interlinings, leather, and other materials used in garment and textile production. It ensures precise, uniform adhesion while reducing manual labor, material wastage, and production time.Widely used in garment factories, sample rooms, and leather workshops, this machine enhances the quality of collars, cuffs, waistbands, and interlinings. With adjustable speed, temperature, and pressure settings, the Pasting Machine is suitable for various material types and thicknesses, offering efficient and reliable bonding results.",
+      "image": "/home/block/carpet-roll-cutting-machine.jpg",
+      "model": "FK-30Q",
+      "brand": "Paroda",
+      "price": "160245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "24",
+      "product_code": "3452",
+      "title": "Digital Weight Scale",
+      "description": "The Digital Weight Scale is a precise, reliable, and easy-to-use weighing solution for industrial, commercial, and laboratory applications. Designed to deliver accurate measurements with high repeatability, it is perfect for garments, textiles, packaging, food processing, laboratories, and general-purpose weighing.Equipped with a high-precision load cell and digital display, the scale provides fast and accurate readings in kilograms, grams, pounds, or ounces. Its compact design, user-friendly interface, and durable build make it ideal for environments where precision and reliability are essential.Advanced models include features such as tare function, unit conversion, overload protection, and data hold, making operations smooth and efficient. The scale can also connect to computers or printers for automated data recording in commercial or production workflows.",
+      "image": "/home/block/slider-image-05.png",
+      "model": "M-96",
+      "brand": "BD Scale",
+      "price": "25245",
+      "discount": "2000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "25",
+      "product_code": "3145",
+      "title": "Fushing Machines",
+      "description": "The Garment Fusing Machine is an essential industrial device used in the apparel industry to bond interlinings, fabrics, and adhesives with precision and efficiency. This machine ensures smooth, wrinkle-free, and consistent application of fusible materials in shirts, jackets, pants, and other garments.Designed for both manual and automatic operations, the fusing machine uses heat, pressure, and time control to create a durable bond between layers of fabric. It improves garment quality, reduces defects, and increases production efficiency in sample rooms, small factories, and large-scale garment manufacturing units.Equipped with advanced temperature control, pressure adjustment, and safety mechanisms, the fusing machine guarantees consistent performance with minimal maintenance. Its ergonomic design and user-friendly interface make it suitable for continuous industrial use.",
+      "image": "/home/new-product/Fushing Machines.png",
+      "model": "Rk-3500",
+      "brand": "Troven",
+      "price": "270245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "50",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "26",
+      "product_code": "7745",
+      "title": "Cloth Cutting Machines",
+      "description": "The Cloth Cutting Machine is a high-precision industrial device designed to cut fabrics, textiles, leather, foam, and composite materials efficiently and accurately. Essential for garment factories, sample rooms, and textile production units, it ensures consistent, clean cuts while reducing manual labor and material wastage.Available in various types—including flatbed cutters, digital cutting plotters, and manual/automatic fabric cutters—these machines are suitable for both bulk production and sample development. Equipped with servo motors, adjustable blades, and digital control systems, Cloth Cutting Machines deliver smooth, high-speed cutting for multiple fabric layers simultaneously.",
+      "image": "/home/new-product/Cloth Cutting Machines.jpg",
+      "model": "JkM-75",
+      "brand": "Flora",
+      "price": "360245",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "27",
+      "product_code": "3648",
+      "title": "Embroidery machines",
+      "description": "The Embroidery Machine is a high-precision industrial device designed to create decorative designs, logos, patterns, and monograms on fabrics, garments, and accessories. Widely used in garment factories, fashion houses, promotional product manufacturing, and textile workshops, it combines speed, accuracy, and versatility to produce professional-quality embroidery.Equipped with computer-controlled multi-needle heads, the machine can handle intricate designs on various fabric types including cotton, polyester, denim, silk, and leather. With programmable patterns, thread color changes, and automatic tension control, embroidery machines significantly increase production efficiency while maintaining consistent design quality.",
+      "image": "/home/new-product/Embroidery machines.png",
+      "model": "GST-45",
+      "brand": "Dragoan",
+      "price": "160245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "40",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "28",
+      "product_code": "3248",
+      "title": "Needle detector",
+      "description": "The Needle Detector is an essential quality control device designed to detect broken or stray needles, metal fragments, or sharp metallic contamination in garments, textiles, and other products. It ensures workplace safety, prevents production defects, and protects end-users from injury.Primarily used in the garment and apparel industry, this machine scans fabric, seams, and finished garments to locate metal contamination before shipment. The high-sensitivity detection system accurately identifies even the smallest needles, pins, or metal fragments without damaging the product.Equipped with an easy-to-use control panel, adjustable sensitivity, and alarm system, the needle detector enhances quality assurance in production lines, sample rooms, and export-ready garment inspection units.",
+      "image": "/home/new-product/Needle detector.png",
+      "model": "M-96",
+      "brand": "Detector",
+      "price": "55245",
+      "discount": "2000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "20",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "29",
+      "product_code": "2244",
+      "title": "Industrial sewing machines",
+      "image": "/home/new-product/Industrial sewing machines.jpg",
+      "model": "JkM-75",
+      "brand": "Flora",
+      "price": "360245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    }
+  ],
+  "categoryProducts": [
+    {
+      "id": "5",
+      "title": "Stricker Machine",
+      "image": "/home/block/slider-image-02.png",
+      "model": "QA-3500",
+      "brand": "Presto",
+      "price": "250245",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "22",
+      "title": "Digital drying Machine",
+      "image": "/home/block/slider-image-03.png",
+      "model": "Jk-300",
+      "brand": "Flora",
+      "price": "360245",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "23",
+      "title": "Pasting Machine",
+      "image": "/home/block/carpet-roll-cutting-machine.jpg",
+      "model": "FK-30Q",
+      "brand": "Paroda",
+      "price": "160245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "24",
+      "title": "Digital Weight Scale",
+      "image": "/home/block/slider-image-05.png",
+      "model": "M-96",
+      "brand": "BD Scale",
+      "price": "25245",
+      "discount": "2000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    }
+  ],
+  "newProducts": [
+    {
+      "id": "25",
+      "title": "Fushing Machines",
+      "image": "/home/new-product/Fushing Machines.png",
+      "model": "Rk-3500",
+      "brand": "Troven",
+      "price": "270245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "50",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "29",
+      "title": "Industrial sewing machines",
+      "image": "/home/new-product/Industrial sewing machines.jpg",
+      "model": "JkM-75",
+      "brand": "Flora",
+      "price": "360245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "27",
+      "title": "Embroidery machines",
+      "image": "/home/new-product/Embroidery machines.png",
+      "model": "GST-45",
+      "brand": "Dragoan",
+      "price": "160245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "40",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "28",
+      "title": "Needle detector",
+      "image": "/home/new-product/Needle detector.png",
+      "model": "M-96",
+      "brand": "Detector",
+      "price": "55245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "20",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    }
+  ],
+  "bsestSellings": [
+    {
+      "id": "25",
+      "title": "Fushing Machines",
+      "image": "/home/new-product/Fushing Machines.png",
+      "model": "Rk-3500",
+      "brand": "Troven",
+      "price": "270245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "50",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "24",
+      "title": "Digital Weight Scale",
+      "image": "/home/block/slider-image-05.png",
+      "model": "M-96",
+      "brand": "BD Scale",
+      "price": "25245",
+      "discount": "2000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "29",
+      "title": "Industrial sewing machines",
+      "image": "/home/new-product/Industrial sewing machines.jpg",
+      "model": "JkM-75",
+      "brand": "Flora",
+      "price": "360245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "28",
+      "title": "Needle detector",
+      "image": "/home/new-product/Needle detector.png",
+      "model": "M-96",
+      "brand": "Detector",
+      "price": "55245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "20",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    }
+  ],
+  "discountProducts": [
+    {
+      "id": "24",
+      "title": "Digital Weight Scale",
+      "image": "/home/block/slider-image-05.png",
+      "model": "M-96",
+      "brand": "BD Scale",
+      "price": "25245",
+      "discount": "2000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "21",
+      "title": "Stricker Machine",
+      "image": "/home/block/slider-image-02.png",
+      "model": "QA-3500",
+      "brand": "Presto",
+      "price": "250245",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "22",
+      "title": "Digital drying Machine",
+      "image": "/home/block/slider-image-03.png",
+      "model": "Jk-300",
+      "brand": "Flora",
+      "price": "360245",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "18",
+      "title": "JWEI Flat Cutting",
+      "image": "/home/slider/garment-equipment-02.png",
+      "model": "W-200",
+      "brand": "Festro",
+      "price": "180000",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "0",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    }
+  ],
+  "trendingProducts": [
+    {
+      "id": "28",
+      "title": "Needle detector",
+      "image": "/home/new-product/Needle detector.png",
+      "model": "M-96",
+      "brand": "Detector",
+      "price": "55245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "20",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "27",
+      "title": "Embroidery machines",
+      "image": "/home/new-product/Embroidery machines.png",
+      "model": "GST-45",
+      "brand": "Dragoan",
+      "price": "160245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "40",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "26",
+      "title": "Cloth Cutting Machines",
+      "image": "/home/new-product/Cloth Cutting Machines.jpg",
+      "model": "JkM-75",
+      "brand": "Flora",
+      "price": "360245",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "20",
+      "title": "Digital Cutting Plotter",
+      "image": "/home/slider/garment-equipment-04.png",
+      "model": "AJ-2500",
+      "brand": "Festro",
+      "price": "220245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "50",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    }
+  ],
+  "popularCategoryProducts": [
+    {
+      "id": "21",
+      "title": "Stricker Machine",
+      "image": "/home/block/slider-image-02.png",
+      "model": "QA-3500",
+      "brand": "Presto",
+      "price": "250245",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "23",
+      "title": "Pasting Machine",
+      "image": "/home/block/carpet-roll-cutting-machine.jpg",
+      "model": "FK-30Q",
+      "brand": "Paroda",
+      "price": "160245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "20",
+      "title": "Digital Cutting Plotter",
+      "image": "/home/slider/garment-equipment-04.png",
+      "model": "QA-2500",
+      "brand": "Revolt",
+      "price": "220245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "18",
+      "title": "JWEI Flat Cutting",
+      "image": "/home/slider/garment-equipment-02.png",
+      "model": "RS-2500",
+      "brand": "Revolt",
+      "price": "180000",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "0",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    }
+  ],
+  "popularBrandProducts": [
+    {
+      "id": "26",
+      "title": "Cloth Cutting Machines",
+      "image": "/home/new-product/Cloth Cutting Machines.jpg",
+      "model": "JkM-75",
+      "brand": "Flora",
+      "price": "360245",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "24",
+      "title": "Digital Weight Scale",
+      "image": "/home/block/slider-image-05.png",
+      "model": "M-96",
+      "brand": "BD Scale",
+      "price": "25245",
+      "discount": "2000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "28",
+      "title": "Needle detector",
+      "image": "/home/new-product/Needle detector.png",
+      "model": "M-96",
+      "brand": "Detector",
+      "price": "55245",
+      "discount": "2000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "20",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "25",
+      "title": "Fushing Machines",
+      "image": "/home/new-product/Fushing Machines.png",
+      "model": "Rk-3500",
+      "brand": "Troven",
+      "price": "270245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "50",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    }
+  ],
+  "upComingProducts": [
+    {
+      "id": "1",
+      "title": "Pasting Machine",
+      "image": "/home/block/carpet-roll-cutting-machine.jpg",
+      "model": "FK-30Q",
+      "brand": "Paroda",
+      "price": "160245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "50",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "2",
+      "title": "CNC-leather-knife-cutter",
+      "image": "/home/upcoming/cnc-leather-knife-cutter.png",
+      "model": "HG-34Q",
+      "brand": "Decora",
+      "price": "260245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "40",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "3",
+      "title": "CNC-vibrating-knfie-cutter",
+      "image": "/home/upcoming/cnc-vibrating-knfie-cutter.jpg",
+      "model": "Vs-56",
+      "brand": "Decora",
+      "price": "290245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "40",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "4",
+      "title": "CNC-knife-cutting-table",
+      "image": "/home/upcoming/digital-cnc-knife-cutting-table.jpg",
+      "model": "Ts-G56",
+      "brand": "Decora",
+      "price": "390245",
+      "discount": "",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "40",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "JWEI Cutting Machine",
+      "image": "/home/slider/garment-equipment-01.png",
+      "price": "160000",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "50",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "2",
+      "title": "JWEI Flat Cutting",
+      "image": "/home/slider/garment-equipment-02.png",
+      "price": "180000",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "50",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "3",
+      "title": "Cutting Machine",
+      "image": "/home/slider/garment-equipment-05.png",
+      "price": "360000",
+      "discount": "8000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "0",
+      "upcoming": "1",
+      "status": "0",
+      "post_role": ""
+    },
+    {
+      "id": "4",
+      "title": "Digital Cutting Plotter",
+      "image": "/home/slider/garment-equipment-04.png",
+      "price": "220245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "100",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "5",
+      "title": "JWEI Cutting Machine",
+      "image": "/home/slider/garment-equipment-01.png",
+      "price": "160000",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "10",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "6",
+      "title": "JWEI Flat Cutting",
+      "image": "/home/slider/garment-equipment-02.png",
+      "price": "180000",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "20",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "7",
+      "title": "Cutting Machine",
+      "image": "/home/slider/garment-equipment-05.png",
+      "price": "360000",
+      "discount": "8000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "20",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "8",
+      "title": "Digital Cutting Plotter",
+      "image": "/home/slider/garment-equipment-04.png",
+      "price": "220245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "30",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "9",
+      "title": "JWEI Cutting Machine",
+      "image": "/home/slider/garment-equipment-01.png",
+      "price": "160000",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "10",
+      "title": "JWEI Flat Cutting",
+      "image": "/home/slider/garment-equipment-02.png",
+      "price": "180000",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "75",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "11",
+      "title": "Cutting Machine",
+      "image": "/home/slider/garment-equipment-05.png",
+      "price": "360000",
+      "discount": "8000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "0",
+      "upcoming": "1",
+      "status": "0",
+      "post_role": ""
+    },
+    {
+      "id": "12",
+      "title": "Digital Cutting Plotter",
+      "image": "/home/slider/garment-equipment-04.png",
+      "price": "220245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "150",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "13",
+      "title": "JWEI Cutting Machine",
+      "image": "/home/slider/garment-equipment-01.png",
+      "price": "160000",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "500",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "14",
+      "title": "JWEI Flat Cutting",
+      "image": "/home/slider/garment-equipment-02.png",
+      "price": "180000",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "250",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "15",
+      "title": "Cutting Machine",
+      "image": "/home/slider/garment-equipment-05.png",
+      "price": "360000",
+      "discount": "8000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "300",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "16",
+      "title": "Digital Cutting Plotter",
+      "image": "/home/slider/garment-equipment-04.png",
+      "price": "220245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "0",
+      "upcoming": "1",
+      "status": "0",
+      "post_role": ""
+    },
+    {
+      "id": "17",
+      "title": "JWEI Cutting Machine",
+      "image": "/home/slider/garment-equipment-01.png",
+      "price": "160000",
+      "discount": "10000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "120",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "18",
+      "title": "JWEI Flat Cutting",
+      "image": "/home/slider/garment-equipment-02.png",
+      "price": "180000",
+      "discount": "15000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "50",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    },
+    {
+      "id": "19",
+      "title": "Cutting Machine",
+      "image": "/home/slider/garment-equipment-05.png",
+      "price": "360000",
+      "discount": "8000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "0",
+      "upcoming": "1",
+      "status": "0",
+      "post_role": ""
+    },
+    {
+      "id": "20",
+      "title": "Digital Cutting Plotter",
+      "image": "/home/slider/garment-equipment-04.png",
+      "price": "220245",
+      "discount": "5000",
+      "criteria": [
+        "category",
+        "newest",
+        "product_feature",
+        "best_selling",
+        "discount_product",
+        "trending_product",
+        "popular_category",
+        "popular_brand",
+        "upcoming_product"
+      ],
+      "in_stock": "400",
+      "upcoming": "1",
+      "status": "1",
+      "post_role": ""
+    }
+  ],
+  "offers": [
+    {
+      "id": "",
+      "image_url": "",
+      "url": "",
+      "title": "",
+      "date": "",
+      "content": ""
+    }
+  ],
+  "contracts": [
+    {
+      "id": "1",
+      "name": "Bishwajit Sarker",
+      "email": "bishwajitsarkar99@gmail.com",
+      "message": "This is message"
+    },
+    {
+      "id": 34,
+      "name": "Rabbi",
+      "email": "rabbi@gmail.com",
+      "message": "This is message"
+    },
+    {
+      "id": 97,
+      "name": "Tuhin Ahamed",
+      "email": "tuhin78@gmail.com",
+      "message": "Welcome to digital tech."
+    },
+    {
+      "id": 44,
+      "name": "Rakib",
+      "email": "rakib754@gmail.com",
+      "message": "Grate Job."
+    },
+    {
+      "id": 22,
+      "name": "Rana Hossain",
+      "email": "ranahossain78@gmail.com",
+      "message": "Welcome to tech industry."
+    }
+  ],
+  "subscribes": [
+    {
+      "id": "",
+      "email": ""
+    },
+    {
+      "id": 75,
+      "email": "bishwajitsarkar88@gmail.com"
+    },
+    {
+      "id": 16,
+      "email": "hasan45@gmail.com"
+    },
+    {
+      "id": 34,
+      "email": "prokas@gmail.com"
+    },
+    {
+      "id": 45,
+      "email": "polas@gmail.com"
+    }
+  ],
+  "cart": [
+    {
+      "product_id": "7",
+      "product": {
+        "id": "7",
+        "title": "Fushing Machines",
+        "image": "/home/new-product/Fushing Machines.png",
+        "model": "Rk-3500",
+        "brand": "Troven",
+        "price": "270245",
+        "discount": "",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "50",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 2,70,245.00"
+      },
+      "qty": 1,
+      "id": 2
+    },
+    {
+      "product_id": "8",
+      "product": {
+        "id": "8",
+        "title": "Needle detector",
+        "image": "/home/new-product/Needle detector.png",
+        "model": "M-96",
+        "brand": "Detector",
+        "price": "55245",
+        "discount": "2000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "20",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 55,245.00"
+      },
+      "qty": 1,
+      "id": 3
+    },
+    {
+      "product_id": "2",
+      "product": {
+        "id": "2",
+        "title": "Digital Weight Scale",
+        "image": "/home/block/slider-image-05.png",
+        "model": "M-96",
+        "brand": "BD Scale",
+        "price": "25245",
+        "discount": "2000",
+        "criteria": [
+          "best_selling"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 25,245.00"
+      },
+      "qty": 1,
+      "id": 7
+    },
+    {
+      "product_id": "4",
+      "product": {
+        "id": "4",
+        "title": "JWEI Flat Cutting",
+        "image": "/home/slider/garment-equipment-02.png",
+        "model": "W-200",
+        "brand": "Festro",
+        "price": "180000",
+        "discount": "15000",
+        "criteria": [
+          "best_selling"
+        ],
+        "in_stock": "0",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 1,80,000.00"
+      },
+      "qty": 1,
+      "id": 8
+    },
+    {
+      "product_id": "2",
+      "product": {
+        "id": "2",
+        "title": "Embroidery machines",
+        "image": "/home/new-product/Embroidery machines.png",
+        "model": "GST-45",
+        "brand": "Dragoan",
+        "price": "160245",
+        "discount": "5000",
+        "criteria": [
+          "trending_product"
+        ],
+        "in_stock": "40",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 1,60,245.00"
+      },
+      "qty": 1,
+      "id": 9
+    },
+    {
+      "product_id": "6",
+      "product": {
+        "id": "6",
+        "title": "Digital Weight Scale",
+        "image": "/home/block/slider-image-05.png",
+        "model": "M-96",
+        "brand": "BD Scale",
+        "price": "25245",
+        "discount": "2000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 25,245.00"
+      },
+      "qty": 1,
+      "id": 10
+    },
+    {
+      "product_id": "2",
+      "product": {
+        "id": "2",
+        "title": "Industrial sewing machines",
+        "image": "/home/new-product/Industrial sewing machines.jpg",
+        "model": "JkM-75",
+        "brand": "Flora",
+        "price": "360245",
+        "discount": "",
+        "criteria": [
+          "newest"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 3,60,245.00"
+      },
+      "qty": 1,
+      "id": 11
+    },
+    {
+      "product_id": "1",
+      "qty": 1,
+      "id": 12
+    },
+    {
+      "product_id": "2",
+      "product": {
+        "id": "2",
+        "title": "JWEI Flat Cutting",
+        "description": "The JWEI Flat Cutting Machine is a high-precision digital cutting solution designed for cutting fabric, leather, soft materials, cardboard, printing sheets, and various composite materials. Known for its stability and accuracy, the flatbed system ensures clean edges and consistent cutting results for mass production as well as sample development.This machine uses an oscillating knife and precision servo motors to deliver fast, smooth, and highly accurate cutting. Its intelligent control system supports multiple tools, allowing cutting, creasing, perforating, V-cut, kiss-cut, and marking – making it one of the most versatile flatbed cutters in its class.JWEI Flat Cutting Machines are widely used in garment sample rooms, footwear factories, leather goods manufacturers, packaging companies, and digital printing houses. With support for CAD/CAM software and direct pattern input, it significantly reduces manual labor and increases production efficiency.",
+        "image": "/home/slider/garment-equipment-02.png",
+        "model": "W-200",
+        "brand": "Festro",
+        "price": "180000",
+        "discount": "15000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "0",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 1,80,000.00"
+      },
+      "qty": 1,
+      "id": 13
+    },
+    {
+      "product_id": "3",
+      "product": {
+        "id": "3",
+        "title": "Cutting Machine",
+        "description": "The Cutting Machine is a high-performance industrial solution designed to cut fabrics, leather, paper, foam, vinyl, and various soft materials with exceptional accuracy. Engineered for garment factories, textile units, leather goods manufacturers, and packaging industries, this machine delivers reliable cutting performance while improving production speed and reducing manual errors.Equipped with a powerful cutting tool—such as an oscillating knife, drag knife, or laser—the machine ensures clean, smooth edges across various material types. Its digital control interface and servo-driven system provide precise motion control, making it ideal for both sample making and bulk production.The machine supports CAD design input, allowing direct pattern import for error-free cutting. With optional vacuum suction beds, automatic feeding systems, and registration mark detection, this cutting machine offers maximum efficiency and minimal wastage.",
+        "image": "/home/slider/garment-equipment-05.png",
+        "model": "GU-2500",
+        "brand": "Festro",
+        "price": "360000",
+        "discount": "8000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "0",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 3,60,000.00"
+      },
+      "qty": 1,
+      "id": 14
+    },
+    {
+      "product_id": "6",
+      "product": {
+        "id": "6",
+        "title": "Digital Weight Scale",
+        "description": "The Digital Weight Scale is a precise, reliable, and easy-to-use weighing solution for industrial, commercial, and laboratory applications. Designed to deliver accurate measurements with high repeatability, it is perfect for garments, textiles, packaging, food processing, laboratories, and general-purpose weighing.Equipped with a high-precision load cell and digital display, the scale provides fast and accurate readings in kilograms, grams, pounds, or ounces. Its compact design, user-friendly interface, and durable build make it ideal for environments where precision and reliability are essential.Advanced models include features such as tare function, unit conversion, overload protection, and data hold, making operations smooth and efficient. The scale can also connect to computers or printers for automated data recording in commercial or production workflows.",
+        "image": "/home/block/slider-image-05.png",
+        "model": "M-96",
+        "brand": "BD Scale",
+        "price": "25245",
+        "discount": "2000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 25,245.00"
+      },
+      "qty": 1,
+      "id": 16
+    },
+    {
+      "product_id": "4",
+      "product": {
+        "id": "4",
+        "title": "Digital Cutting Plotter",
+        "description": "The Digital Cutting Plotter is a high-precision, computer-controlled cutting solution designed for fast and accurate cutting of various soft materials including fabric, leather, vinyl, stickers, cardboard, foam, and printed sheets. Engineered for industries that require detailed cutting, sample development, and small-batch production, this plotter provides clean, sharp edges with minimal waste.Using an advanced servo-driven cutting head and digital control system, the Digital Cutting Plotter delivers smooth, consistent, and reliable cutting results. It supports multiple cutting tools such as oscillating knife, drag knife, kiss-cut tool, V-cut knife, and creasing wheel — making it highly versatile for garments, packaging, signage, and advertising applications.With full compatibility with major CAD/CAM software and support for AI, DXF, PLT, and HPGL files, the Digital Cutting Plotter ensures seamless workflow integration. Its vacuum suction table keeps materials firmly in place, enabling accurate and fast production even on thin or flexible materials.",
+        "model": "AJ-2500",
+        "brand": "Festro",
+        "image": "/home/slider/garment-equipment-04.png",
+        "price": "220245",
+        "discount": "5000",
+        "priceText": "৳ 2,20,245.00",
+        "status": "1",
+        "post_role": "",
+        "criteria": [
+          "Digital Cutting Plotter"
+        ]
+      },
+      "qty": 1,
+      "id": 17
+    },
+    {
+      "product_id": "28",
+      "product": {
+        "id": "28",
+        "title": "Needle detector",
+        "image": "/home/new-product/Needle detector.png",
+        "model": "M-96",
+        "brand": "Detector",
+        "price": "55245",
+        "discount": "",
+        "criteria": [
+          "trending_product"
+        ],
+        "in_stock": "20",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 55,245.00"
+      },
+      "qty": 1,
+      "id": 18
+    },
+    {
+      "product_id": "26",
+      "product": {
+        "id": "26",
+        "title": "Cloth Cutting Machines",
+        "image": "/home/new-product/Cloth Cutting Machines.jpg",
+        "model": "JkM-75",
+        "brand": "Flora",
+        "price": "360245",
+        "discount": "15000",
+        "criteria": [
+          "trending_product"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 3,60,245.00"
+      },
+      "qty": 1,
+      "id": 19
+    },
+    {
+      "product_id": "22",
+      "product": {
+        "id": "22",
+        "title": "Digital drying Machine",
+        "image": "/home/block/slider-image-03.png",
+        "model": "Jk-300",
+        "brand": "Flora",
+        "price": "360245",
+        "discount": "15000",
+        "criteria": [
+          "best_selling"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 3,60,245.00"
+      },
+      "qty": 1,
+      "id": 20
+    },
+    {
+      "product_id": "6",
+      "product": {
+        "id": "6",
+        "title": "Digital Weight Scale",
+        "description": "The Digital Weight Scale is a precise, reliable, and easy-to-use weighing solution for industrial, commercial, and laboratory applications. Designed to deliver accurate measurements with high repeatability, it is perfect for garments, textiles, packaging, food processing, laboratories, and general-purpose weighing.Equipped with a high-precision load cell and digital display, the scale provides fast and accurate readings in kilograms, grams, pounds, or ounces. Its compact design, user-friendly interface, and durable build make it ideal for environments where precision and reliability are essential.Advanced models include features such as tare function, unit conversion, overload protection, and data hold, making operations smooth and efficient. The scale can also connect to computers or printers for automated data recording in commercial or production workflows.",
+        "image": "/home/block/slider-image-05.png",
+        "model": "M-96",
+        "brand": "BD Scale",
+        "price": "25245",
+        "discount": "2000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 25,245.00"
+      },
+      "qty": 1,
+      "id": 21
+    }
+  ],
+  "wishlist": [
+    {
+      "user_id": 1,
+      "product_id": "1",
+      "product": {
+        "id": "1",
+        "title": "JWEI Cutting Machine",
+        "image": "/home/slider/garment-equipment-01.png",
+        "model": "FW-2500",
+        "brand": "Festro",
+        "price": "160000",
+        "discount": "10000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 1,60,000.00"
+      },
+      "id": 1
+    },
+    {
+      "user_id": 1,
+      "product_id": "2",
+      "product": {
+        "id": "2",
+        "title": "JWEI Flat Cutting",
+        "image": "/home/slider/garment-equipment-02.png",
+        "model": "W-200",
+        "brand": "Festro",
+        "price": "180000",
+        "discount": "15000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "0",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 1,80,000.00"
+      },
+      "id": 2
+    },
+    {
+      "user_id": 1,
+      "product_id": "3",
+      "product": {
+        "id": "3",
+        "title": "Cutting Machine",
+        "image": "/home/slider/garment-equipment-05.png",
+        "model": "GU-2500",
+        "brand": "Festro",
+        "price": "360000",
+        "discount": "8000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "0",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 3,60,000.00"
+      },
+      "id": 3
+    },
+    {
+      "user_id": 1,
+      "product_id": "4",
+      "product": {
+        "id": "4",
+        "title": "Digital Cutting Plotter",
+        "image": "/home/slider/garment-equipment-04.png",
+        "model": "AJ-2500",
+        "brand": "Festro",
+        "price": "220245",
+        "discount": "5000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "50",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 2,20,245.00"
+      },
+      "id": 4
+    },
+    {
+      "user_id": 1,
+      "product_id": "5",
+      "product": {
+        "id": "5",
+        "title": "Stricker Machine",
+        "image": "/home/block/slider-image-02.png",
+        "model": "QA-3500",
+        "brand": "Presto",
+        "price": "250245",
+        "discount": "10000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 2,50,245.00"
+      },
+      "id": 5
+    },
+    {
+      "user_id": 1,
+      "product_id": "6",
+      "product": {
+        "id": "6",
+        "title": "Digital Weight Scale",
+        "image": "/home/block/slider-image-05.png",
+        "model": "M-96",
+        "brand": "BD Scale",
+        "price": "25245",
+        "discount": "2000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 25,245.00"
+      },
+      "id": 6
+    },
+    {
+      "user_id": 1,
+      "product_id": "7",
+      "product": {
+        "id": "7",
+        "title": "Fushing Machines",
+        "image": "/home/new-product/Fushing Machines.png",
+        "model": "Rk-3500",
+        "brand": "Troven",
+        "price": "270245",
+        "discount": "",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "50",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 2,70,245.00"
+      },
+      "id": 7
+    },
+    {
+      "user_id": 1,
+      "product_id": "8",
+      "product": {
+        "id": "8",
+        "title": "Needle detector",
+        "image": "/home/new-product/Needle detector.png",
+        "model": "M-96",
+        "brand": "Detector",
+        "price": "55245",
+        "discount": "2000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "20",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 55,245.00"
+      },
+      "id": 8
+    },
+    {
+      "user_id": 1,
+      "product_id": "1",
+      "product": {
+        "id": "1",
+        "title": "JWEI Cutting Machine",
+        "description": "The JWEI Cutting Machine is a high-precision, fully automated cutting solution designed for the garment and apparel manufacturing industry. Known for its speed, accuracy, and intelligent control system, this machine streamlines fabric cutting processes for mass production as well as custom orders.Built with advanced servo motors and a digital control panel, the JWEI Cutter delivers extremely clean, consistent cuts across woven fabrics, knits, denim, synthetic materials, and technical textiles. Its robust blade mechanism ensures smooth operation even on multi-layer fabric spreads, making it ideal for factories aiming to enhance efficiency, reduce manual workload, and maintain consistent quality.The JWEI Cutting Machine supports CAD pattern input, allowing designers to directly import digital patterns for precise output. With low maintenance, durable installation design, and superior safety features, it has become a reliable choice for garment manufacturers around the world.",
+        "model": "FW-2500",
+        "brand": "Festro",
+        "image": "/home/slider/garment-equipment-01.png",
+        "price": "160000",
+        "discount": "10000",
+        "priceText": "৳ 1,60,000.00",
+        "status": "1",
+        "post_role": "",
+        "criteria": [
+          "JWEI Cutting Machine"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "user_id": 1,
+      "product_id": "2",
+      "product": {
+        "id": "2",
+        "title": "JWEI Flat Cutting",
+        "description": "The JWEI Flat Cutting Machine is a high-precision digital cutting solution designed for cutting fabric, leather, soft materials, cardboard, printing sheets, and various composite materials. Known for its stability and accuracy, the flatbed system ensures clean edges and consistent cutting results for mass production as well as sample development.This machine uses an oscillating knife and precision servo motors to deliver fast, smooth, and highly accurate cutting. Its intelligent control system supports multiple tools, allowing cutting, creasing, perforating, V-cut, kiss-cut, and marking – making it one of the most versatile flatbed cutters in its class.JWEI Flat Cutting Machines are widely used in garment sample rooms, footwear factories, leather goods manufacturers, packaging companies, and digital printing houses. With support for CAD/CAM software and direct pattern input, it significantly reduces manual labor and increases production efficiency.",
+        "image": "/home/slider/garment-equipment-02.png",
+        "model": "W-200",
+        "brand": "Festro",
+        "price": "180000",
+        "discount": "15000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "0",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 1,80,000.00"
+      },
+      "id": 11
+    },
+    {
+      "user_id": 1,
+      "product_id": "6",
+      "product": {
+        "id": "6",
+        "title": "Digital Weight Scale",
+        "description": "The Digital Weight Scale is a precise, reliable, and easy-to-use weighing solution for industrial, commercial, and laboratory applications. Designed to deliver accurate measurements with high repeatability, it is perfect for garments, textiles, packaging, food processing, laboratories, and general-purpose weighing.Equipped with a high-precision load cell and digital display, the scale provides fast and accurate readings in kilograms, grams, pounds, or ounces. Its compact design, user-friendly interface, and durable build make it ideal for environments where precision and reliability are essential.Advanced models include features such as tare function, unit conversion, overload protection, and data hold, making operations smooth and efficient. The scale can also connect to computers or printers for automated data recording in commercial or production workflows.",
+        "image": "/home/block/slider-image-05.png",
+        "model": "M-96",
+        "brand": "BD Scale",
+        "price": "25245",
+        "discount": "2000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 25,245.00"
+      },
+      "id": 13
+    },
+    {
+      "user_id": 1,
+      "product_id": "4",
+      "product": {
+        "id": "4",
+        "title": "Digital Cutting Plotter",
+        "description": "The Digital Cutting Plotter is a high-precision, computer-controlled cutting solution designed for fast and accurate cutting of various soft materials including fabric, leather, vinyl, stickers, cardboard, foam, and printed sheets. Engineered for industries that require detailed cutting, sample development, and small-batch production, this plotter provides clean, sharp edges with minimal waste.Using an advanced servo-driven cutting head and digital control system, the Digital Cutting Plotter delivers smooth, consistent, and reliable cutting results. It supports multiple cutting tools such as oscillating knife, drag knife, kiss-cut tool, V-cut knife, and creasing wheel — making it highly versatile for garments, packaging, signage, and advertising applications.With full compatibility with major CAD/CAM software and support for AI, DXF, PLT, and HPGL files, the Digital Cutting Plotter ensures seamless workflow integration. Its vacuum suction table keeps materials firmly in place, enabling accurate and fast production even on thin or flexible materials.",
+        "model": "AJ-2500",
+        "brand": "Festro",
+        "image": "/home/slider/garment-equipment-04.png",
+        "price": "220245",
+        "discount": "5000",
+        "priceText": "৳ 2,20,245.00",
+        "status": "1",
+        "post_role": "",
+        "criteria": [
+          "Digital Cutting Plotter"
+        ]
+      },
+      "id": 14
+    },
+    {
+      "user_id": 1,
+      "product_id": "25",
+      "product": {
+        "id": "25",
+        "title": "Fushing Machines",
+        "image": "/home/new-product/Fushing Machines.png",
+        "model": "Rk-3500",
+        "brand": "Troven",
+        "price": "270245",
+        "discount": "",
+        "criteria": [
+          "best_selling"
+        ],
+        "in_stock": "50",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 2,70,245.00"
+      },
+      "id": 15
+    },
+    {
+      "user_id": 1,
+      "product_id": "24",
+      "product": {
+        "id": "24",
+        "title": "Digital Weight Scale",
+        "image": "/home/block/slider-image-05.png",
+        "model": "M-96",
+        "brand": "BD Scale",
+        "price": "25245",
+        "discount": "2000",
+        "criteria": [
+          "best_selling"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 25,245.00"
+      },
+      "id": 16
+    },
+    {
+      "user_id": 1,
+      "product_id": "28",
+      "product": {
+        "id": "28",
+        "title": "Needle detector",
+        "image": "/home/new-product/Needle detector.png",
+        "model": "M-96",
+        "brand": "Detector",
+        "price": "55245",
+        "discount": "",
+        "criteria": [
+          "trending_product"
+        ],
+        "in_stock": "20",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 55,245.00"
+      },
+      "id": 17
+    },
+    {
+      "user_id": 1,
+      "product_id": "26",
+      "product": {
+        "id": "26",
+        "title": "Cloth Cutting Machines",
+        "image": "/home/new-product/Cloth Cutting Machines.jpg",
+        "model": "JkM-75",
+        "brand": "Flora",
+        "price": "360245",
+        "discount": "15000",
+        "criteria": [
+          "trending_product"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 3,60,245.00"
+      },
+      "id": 18
+    },
+    {
+      "user_id": 1,
+      "product_id": "21",
+      "product": {
+        "id": "21",
+        "title": "Stricker Machine",
+        "image": "/home/block/slider-image-02.png",
+        "model": "QA-3500",
+        "brand": "Presto",
+        "price": "250245",
+        "discount": "10000",
+        "criteria": [
+          "best_selling"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 2,50,245.00"
+      },
+      "id": 19
+    },
+    {
+      "user_id": 1,
+      "product_id": "7",
+      "product": {
+        "id": "7",
+        "title": "Fushing Machines",
+        "description": "The Garment Fusing Machine is an essential industrial device used in the apparel industry to bond interlinings, fabrics, and adhesives with precision and efficiency. This machine ensures smooth, wrinkle-free, and consistent application of fusible materials in shirts, jackets, pants, and other garments.Designed for both manual and automatic operations, the fusing machine uses heat, pressure, and time control to create a durable bond between layers of fabric. It improves garment quality, reduces defects, and increases production efficiency in sample rooms, small factories, and large-scale garment manufacturing units.Equipped with advanced temperature control, pressure adjustment, and safety mechanisms, the fusing machine guarantees consistent performance with minimal maintenance. Its ergonomic design and user-friendly interface make it suitable for continuous industrial use.",
+        "image": "/home/new-product/Fushing Machines.png",
+        "model": "Rk-3500",
+        "brand": "Troven",
+        "price": "270245",
+        "discount": "",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "50",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 2,70,245.00"
+      },
+      "id": 20
+    },
+    {
+      "user_id": 1,
+      "product_id": "5",
+      "product": {
+        "id": "5",
+        "title": "Stricker Machine",
+        "description": "The Sticker Cutting Machine is a high-precision digital plotter designed for cutting stickers, vinyl sheets, decals, labels, and adhesive materials with clean and accurate edges. Ideal for printing houses, advertising agencies, packaging units, and garment labeling, this machine ensures consistent and fast production for both small and large batches.Equipped with a servo-driven or stepper motor system, the sticker cutting machine allows for smooth and accurate cuts on various materials. The machine supports multiple cutting tools including drag knives, oscillating knives, kiss-cut tools, and V-cut knives, allowing flexibility for different sticker types and designs.It comes with a user-friendly control panel and supports popular file formats such as AI, DXF, PLT, and HPGL, making it compatible with all major design software. The vacuum suction system ensures the material stays flat during cutting, reducing errors and material wastage.",
+        "image": "/home/block/slider-image-02.png",
+        "model": "QA-3500",
+        "brand": "Presto",
+        "price": "250245",
+        "discount": "10000",
+        "criteria": [
+          "category",
+          "newest",
+          "product_feature",
+          "best_selling",
+          "discount_product",
+          "trending_product",
+          "popular_category",
+          "popular_brand",
+          "upcoming_product"
+        ],
+        "in_stock": "10",
+        "upcoming": "1",
+        "status": "1",
+        "post_role": "",
+        "priceText": "৳ 2,50,245.00"
+      },
+      "id": 21
+    },
+    {
+      "user_id": 1,
+      "product_id": "10",
+      "product": {
+        "id": "10",
+        "title": "JWEI Flat Cutting",
+        "description": "The JWEI Flat Cutting Machine is a high-precision digital cutting solution designed to cut fabrics, leather, foam, vinyl, cardboard, and composite materials with speed and accuracy. Widely used in garment factories, sample rooms, packaging, and printing industries, it ensures clean, consistent, and efficient cuts.Equipped with advanced servo motors, a vacuum suction table, and multi-tool capability, the JWEI Flat Cutter allows cutting, creasing, kiss-cutting, V-cutting, and marking in a single machine. Its digital control system supports CAD pattern import (DXF, AI, PLT, HPGL) for precise and repeatable production, reducing material wastage and manual labor.This versatile flatbed cutter is ideal for sample development, mass production, and industrial applications, delivering high-quality results across a wide range of materials.",
+        "model": "FW-400",
+        "brand": "Pentone",
+        "image": "/home/slider/garment-equipment-02.png",
+        "price": "180000",
+        "discount": "15000",
+        "priceText": "৳ 1,80,000.00",
+        "status": "1",
+        "post_role": "",
+        "criteria": [
+          "JWEI Flat Cutting"
+        ]
+      },
+      "id": 22
+    }
+  ]
 }
